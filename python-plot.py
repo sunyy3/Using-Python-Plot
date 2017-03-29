@@ -105,3 +105,20 @@ plt.plot(x,y,'ro')
 plt.plot(x,y_fit,'b-')
 plt.text(2,7,' y = {0:6.4f} x + {1:6.4f} \n $R^2$ = {2:6.4f}'.format(slope, intercept, r_value*r_value))
 plt.show()
+
+
+# Example 5: how to draw figures with two y-axis, which share one x-axis
+month = [i for i in range(1,13)]
+price = [12, 8, 9, 4, 1, 3, 7, 7, 8, 13, 14, 15]
+amount = [3, 5, 7, 10, 20, 15, 9, 9, 8, 4, 2, 1]
+
+# here we have two y-axis system: ax1 and ax2
+fig, ax1 =plt.subplots()
+ax2 = ax1.twinx()
+ax1.plot(month,price,'ro-')
+ax2.plot(month,amount,'b>-')
+ax1.set_xlabel('Month')
+ax1.set_ylabel('Price')
+ax2.set_ylabel('Amount')
+fig.tight_layout()
+plt.show()
