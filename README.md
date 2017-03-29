@@ -15,4 +15,4 @@ This repository shows some examples of using python to plot figures. These examp
 2. Histogram after normalizaion
 3. Using numpy get value of each bin in histogram
 ## Example 4: linear regression using scipy
-
+## Example 5: how to draw a figure with two y-scale and a shared x-scale
