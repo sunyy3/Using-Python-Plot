@@ -1,6 +1,7 @@
 # Using-Python-Plot
 This repository shows some examples of using python to plot figures. These examples come from my daily experiences.
-## Example 1: Basic plot setting using scatter and line plot
+[Example 1](#Example 1)
+## Example 1: Basic plot setting using scatter and line plot <a id='Example 1'></a>
 1. how to set shape of scatter, type of line
 2. how to costomize your axis and legend
 3. how to adding text into the figure, and how set the format of text, including annotation
