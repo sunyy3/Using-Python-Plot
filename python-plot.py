@@ -49,8 +49,8 @@ plt.clf()
 plt.title('$\\theta \\Theta; \sigma \Sigma; \pi \Pi$')   
 # some basic mathematical operator
 plt.xlabel('$\\times \div \\neq \leq \geq \equiv $')    
-# some calculus symbol
-plt.ylabel('$\infty \partial \int \oint \sum \prod $')    
+# some calculus symbol: the last one is Angstrom
+plt.ylabel('$\infty \partial \int \oint \sum \prod \AA$')    
 # subscript using '_' and superscript using '^', if subscript is a long equation, using {} to surround equation, e.g. {i=1}
 plt.text(0.5 ,0.5, '$(a_1+a_2)^2 = a_1^2 + 2 a_1 a_2 + a_2^2 $', style='italic')    
 # fraction using '\frac{numerator}{denimunator}', similarly, long equation using {}, e.g. {n^2}
