@@ -9,9 +9,9 @@ x = [0, 1, 2, 3, 4, 5, 6, 7]
 y = [0, 1, 4, 9, 16, 25, 36, 49]
 z = [0, 1, 2, 3, 4, 5, 6, 7]
 
-# have a empty canvas
+# have a empty canvas and customize the position of axes
 plt.clf()
-
+plt.figure().add_axes([0.15, 0.15, 0.8, 0.8])
 ###############################################################################
 # 1. Scatter and line format: circle point, solid line, red.
 #   You can define together or explicitly.
@@ -43,6 +43,7 @@ plt.legend(loc='upper left', prop={'size': 12})
 # (2) "borderpad": integer, the blank in the border of the legend box.
 # (3) "labelspacing": integer, similar to line space.
 # (4) "prop": define the size of the text.
+# (5) "frameon": True or False, remove the box of the legend
 ###############################################################################
 
 ###############################################################################
