@@ -115,6 +115,8 @@ amount = [3, 5, 7, 10, 20, 15, 9, 9, 8, 4, 2, 1]
 # here we have two y-axis system: ax1 and ax2
 fig, ax1 =plt.subplots()
 ax2 = ax1.twinx()
+ax1.set_position([0.12,0.12,0.76,0.83])
+ax2.set_position([0.12,0.12,0.76,0.83])
 ax1.plot(month,price,'ro-')
 ax2.plot(month,amount,'b>-')
 ax1.set_xlabel('Month')
